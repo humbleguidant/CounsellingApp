@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "All Good",
+    "slug": "FirstProject",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/allgoodlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.anickerson.FirstProject",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.anickerson.FirstProject",
+      "versionCode": 3
+    }
+  }
+}
