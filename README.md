@@ -10,4 +10,7 @@ The source code that makes up the screens and handles the database functionality
 
 2. Users should create an account. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093840.png?raw=true) <br /> <br />
+
+3. User should reset password if they forget. <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093852.png?raw=true) <br /> <br />
 # Non Functional Requirements
