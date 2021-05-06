@@ -4,17 +4,21 @@ Date: July 2nd, 2020
 Program: BalancingEmotionalLogicalThoughtScreen.js
 Project: Counselling App
 
-This is the assertiveness screen. It provides tips on
-how the user can realize where changes are needed and believing
-in the users rights. 
+This is the balancing emotional logical thought screen. 
+It gives advice on how to counteract negative thought, 
+brainstorm, conduct thought & behavior experiments. 
 */
 
+
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View, Image, ScrollView } from 'react-native';
 import { Text, Button } from 'galio-framework';
 
 export default class BalancingEmotionalLogicalThoughtScreen extends Component{
     render(){
+        
+        // Display content
         return(
             <ScrollView>
             <View style={styles.container}>
