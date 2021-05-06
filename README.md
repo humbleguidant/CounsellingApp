@@ -8,5 +8,6 @@ The source code that makes up the screens and handles the database functionality
 1. Users should login to access the main menu. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093829.png?raw=true) <br /> <br />
 
-
+2. Users should create an account. <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093840.png?raw=true) <br /> <br />
 # Non Functional Requirements
