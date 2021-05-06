@@ -1,3 +1,14 @@
+/*
+Author: Aubrey Nickerson
+Date: July 2nd, 2020
+Program: BalancingEmotionalLogicalThoughtScreen.js
+Project: Counselling App
+
+This is the assertiveness screen. It provides tips on
+how the user can realize where changes are needed and believing
+in the users rights. 
+*/
+
 import React, { Component } from 'react';
 import { StyleSheet, View, Image, ScrollView } from 'react-native';
 import { Text, Button } from 'galio-framework';
