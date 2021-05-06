@@ -1,3 +1,16 @@
+/*
+Author: Aubrey Nickerson
+Date: July 2nd, 2020
+Program: AssertivenessScreen.js
+Project: Construction App
+
+This is the assertiveness screen. It provides tips on
+how the user can realize where changes are needed and believing
+in the users rights. 
+*/
+
+
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View, Image } from 'react-native';
 import { Container, Content, Card, CardItem, Left, Body } from 'native-base';
@@ -7,6 +20,7 @@ export default class AssertivenessScreen extends Component{
     render(){
         return(
             
+            // Display card items
             <Container style={{backgroundColor: "#B23AFC",}}>
                 <Content style={{backgroundColor: "#B23AFC",}}>
                     <Card style={{flex: 0, backgroundColor: "#B23AFC", marginTop: 40}} noShadow transparent>
