@@ -1,8 +1,23 @@
+/*
+Author: Aubrey Nickerson
+Date: July 5th, 2020
+Program: FiveMinuteRuleScreen.js
+Project: Counselling App
+
+This is the five minute rule screen. It contains
+a navigation bar with one section having a stack of
+cards to swipe left or right. Another section includes
+another stack of cards. The third sectionincludes two boxes
+giing tips on how to be mindful. 
+*/
+
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView, Image } from 'react-native';
 import { Container, DeckSwiper,  Card, CardItem, Left, Body, Tab, Tabs, ScrollableTab } from 'native-base';
 import { Text, Button } from 'galio-framework';
 
+// Instantiate cards
 const cards = [
     {
         text: 'Set a timer and allow yourself to ruminate for 5 minutes. (Swipe left or right)',
@@ -22,6 +37,7 @@ const cards = [
     }
 ]
 
+// Instantiate cards
 const cards2 = [
     {
         text: 'When you become aware of an intrusive thought or rumination, tell yourself "STOP"',
@@ -44,6 +60,8 @@ const cards2 = [
 export default class FiveMinuteRuleScreen extends Component{
     
     render(){
+        
+        // Load content
         return(
         <Container style={{backgroundColor: "#B23AFC",}}>
             <Tabs locked renderTabBar={()=> <ScrollableTab style={{height: 120}}/> }>
