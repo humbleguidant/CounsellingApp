@@ -11,6 +11,8 @@ that is offered and will be redirected to that
 screen.
 */
 
+
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import { Button } from 'galio-framework';
