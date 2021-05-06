@@ -2,7 +2,7 @@
 Author: Aubrey Nickerson
 Date: July 2nd, 2020
 Program: AssertivenessScreen.js
-Project: Construction App
+Project: Counselling App
 
 This is the assertiveness screen. It provides tips on
 how the user can realize where changes are needed and believing
