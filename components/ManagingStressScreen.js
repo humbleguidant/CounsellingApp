@@ -1,3 +1,16 @@
+/*
+Author: Aubrey Nickerson
+Date: July 5th, 2020
+Program: ManagingStressScreen.js
+Project: Counselling App
+
+This is the managing stress screen. It gives tips on how
+to use symptom management at any given time, knowing and 
+respecting warning signs, maintaining a healthy life cycle,
+and so on. 
+*/
+
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import { Tooltip } from "react-native-elements";
@@ -5,6 +18,7 @@ import { Text, Button } from 'galio-framework';
 
 export default class ManagingStressScreen extends Component{
     render(){
+        // Display content
         return(
             <ScrollView>
             <View style={styles.container}>

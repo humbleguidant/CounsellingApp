@@ -1,9 +1,25 @@
+/*
+Author: Aubrey Nickerson
+Date: July 5th, 2020
+Program: HomeScreen.js
+Project: Counselling App
+
+This is the home screen. It is where the user
+is redirected to when they have successfully 
+logged in. They can choose which menu option 
+that is offered and will be redirected to that 
+screen.
+*/
+
+
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import { Button } from 'galio-framework';
 
 export default class HomeScreen extends Component{
     render(){
+        // Display content. 
         return (
             <View style={styles.container}>
               <ScrollView>

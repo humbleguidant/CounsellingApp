@@ -1,8 +1,22 @@
+/*
+Author: Aubrey Nickerson
+Date: July 4th, 2020
+Program: CheckInScreen.js
+Project: Counselling App
+
+This is the check in screen. It contains
+a stack of cards where the user swipes left or right. Each card
+gives tips on how the user can take deep breaths and reduce stress.
+*/
+
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native'; 
 import { Button, Block, DeckSwiper, Text } from 'galio-framework';
 
 export default class CheckInScreen extends Component{
+    
+    // Create deck of cards
     deckSwiperElements(){
         var elements = [
             <View style={{ backgroundColor: '#D90754', height: 750, width: 375, alignItems: 'center', justifyContent: 'center', marginTop: 50, marginLeft: -30}}>
@@ -44,6 +58,8 @@ export default class CheckInScreen extends Component{
     }
     render(){
         return (
+            
+            // Display content
             <View style={styles.container}>
               <Block>
                   <DeckSwiper components={this.deckSwiperElements()}/>
