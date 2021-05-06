@@ -10,6 +10,7 @@ that a user can experience when feeling extrememly
 distressed or tension arising.
 */
 
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import { Button, Block, Accordion } from 'galio-framework';
