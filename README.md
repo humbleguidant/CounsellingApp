@@ -22,4 +22,22 @@ The source code that makes up the screens and handles the database functionality
 
 6. Balancing Emotional & Logical Thought <br/> <br/>
 ![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093934.png?raw=true) <br /> <br />
+
+7. Body Scan <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093938.png?raw=true) <br /> <br />
+
+8. Challenging Negative Thoughts <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093941.png?raw=true) <br /> <br />
+
+9. Check In <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093944.png?raw=true) <br /> <br />
+
+10. Healthy Relationships <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093948.png?raw=true) <br /> <br />
+
+11. Managing Stress <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093952.png?raw=true) <br /> <br />
+
+12. The 5 Minute Rule <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093957.png?raw=true) <br /> <br />
 # Non Functional Requirements
