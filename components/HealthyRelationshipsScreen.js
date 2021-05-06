@@ -1,3 +1,17 @@
+/*
+Author: Aubrey Nickerson
+Date: July 4th, 2020
+Program: HealthyRelationshipsScreen.js
+Project: Counselling App
+
+This is the healthy relationships screen. It contains
+a navigation bar of three options. It gives tips
+on things to avoid, healthy relationships, and things 
+to do. 
+*/
+
+
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import { Container, Tab, Tabs, ScrollableTab } from 'native-base';
@@ -6,6 +20,8 @@ import { Text, Button } from 'galio-framework';
 
 export default class HealthyRelationshipsScreen extends Component{
     render(){
+        
+        // Display content
         return(
         
         <Container style={{backgroundColor: "#B23AFC",}}>
