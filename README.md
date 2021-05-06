@@ -13,4 +13,13 @@ The source code that makes up the screens and handles the database functionality
 
 3. User should reset password if they forget. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093852.png?raw=true) <br /> <br />
+
+4. Main Menu should be displayed after user successfully logs in. <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093923.png?raw=true) <br /> <br />
+
+5. Assertiveness. <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093931.png?raw=true) <br /> <br />
+
+6. Balancing Emotional & Logical Thought <br/> <br/>
+![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093934.png?raw=true) <br /> <br />
 # Non Functional Requirements
