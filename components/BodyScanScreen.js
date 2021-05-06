@@ -1,7 +1,20 @@
+/*
+Author: Aubrey Nickerson
+Date: July 3rd, 2020
+Program: BodyScanScreen.js
+Project: Counselling App
+
+This is the body scan screen. It gives 
+descriptions on the different side effects
+that a user can experience when feeling extrememly
+distressed or tension arising.
+*/
+
 import React, { Component } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import { Button, Block, Accordion } from 'galio-framework';
 
+// Add key-pair list of defintions
 const data = [
   { title: "Recognizing Warning Signs", content: "What warning signs do you experience when you feel extremely distressed or tension arising?",
     icon: {
@@ -24,6 +37,7 @@ const data = [
 
 export default class BodyScanScreen extends Component{
     render(){
+      // display content.
         return (<View style={styles.container}>
                 <ScrollView>
                   <Block style={styles.blockContainer} shadow>
