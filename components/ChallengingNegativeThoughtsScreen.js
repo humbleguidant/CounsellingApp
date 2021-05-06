@@ -1,8 +1,21 @@
+/*
+Author: Aubrey Nickerson
+Date: July 4th, 2020
+Program: ChallengingNegativeThoughtsScreen.js
+Project: Counselling App
+
+This is the challenging negative thoughts screen. It contains
+a stack of cards where the user swipes left or right. Each card
+gives tips on how the user can stay calm and not have panic attacks.
+*/
+
+// Import libraries
 import React, { Component } from 'react';
 import { StyleSheet, View, Image, ScrollView } from 'react-native';
 import { Text, Button } from 'galio-framework';
 import { Container, DeckSwiper, Card, CardItem, Left, Body } from 'native-base';
 
+// Instantiate cards
 const cards = [
     {
         text: 'Depression, poor self-esteem, and anxiety are often the result of irrational negative thoughts. (Swipe left or right)',
@@ -47,6 +60,7 @@ const cards = [
 ]
 
 export default class ChallengingNegativeThoughtsScreen extends Component{
+    // Display content
     render(){
         return(
                 <Container style={{backgroundColor: "#B23AFC"}}>
