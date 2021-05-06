@@ -2,7 +2,7 @@
 Author: Aubrey Nickerson
 Date: July 1st, 2020
 Program: App.js
-Project: Construction App
+Project: Counselling App
 
 This is the core of the app. It contains all of the
 components that make the app function.
