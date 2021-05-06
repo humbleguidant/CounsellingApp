@@ -5,7 +5,7 @@ This is a counselling app created in React Native, with Firebase DB. It gives ti
 The source code that makes up the screens and handles the database functionality are in the components folder. The App.js is the main core of the app and all of the screens run on that file using Stack Navigation. 
 
 # Functional Requirements
-1. Users should login to access the main menu.
+1. Users should login to access the main menu. <br/> <br/>
 ![alt text](https://github.com/humbleguidant/CounsellingApp/blob/master/Screenshots/Screenshot_20210506-093829.png?raw=true) <br /> <br />
 
 
